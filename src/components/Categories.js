@@ -1,7 +1,8 @@
-import './styles/Categories.css'
+import './styles/Categories.css';
+
 const Categories = () => (
-    <div>
+  <div>
     <button className="cat-btn" type="button">Check status</button>
   </div>
-  );
-  export default Categories;
+);
+export default Categories;

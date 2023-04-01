@@ -1,12 +1,12 @@
 .booklist {
-    list-style:none;
+  list-style: none;
 }
 
 .book {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  button {
-    width: fit-content;
-  }
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: fit-content;
+}
