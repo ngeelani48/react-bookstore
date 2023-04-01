@@ -1,7 +1,9 @@
 import Book from './Book';
+import NewBookForm from './NewBookForm';
 import './styles/Books.css';
 
 const Books = () => (
+
   <div className="books">
     <ul className="booklist">
       <li className="item">
@@ -14,11 +16,7 @@ const Books = () => (
         <Book title="The Merchant of Venice" author="Shakespeare" />
       </li>
     </ul>
-    <form className="form">
-      <input type="text" placeholder="Book title" className="input" />
-      <input type="text" placeholder="Author" className="input" />
-      <button type="submit" className="form-button">Add Book</button>
-    </form>
+    <NewBookForm />
   </div>
 );
 export default Books;
