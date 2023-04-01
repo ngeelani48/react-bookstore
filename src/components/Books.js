@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import Book from './Book';
 import './styles/Books.css';
 
 const Books = () => (
@@ -22,16 +22,3 @@ const Books = () => (
   </div>
 );
 export default Books;
-
-const Book = ({ title, author }) => (
-  <div className="book">
-    <h2>{title}</h2>
-    <p>{author}</p>
-    <button type="button" className="remove-button">Remove </button>
-  </div>
-);
-
-Book.propTypes = {
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-};
