@@ -1,9 +1,43 @@
-const NewBookForm = () => (
-  <form className="form">
-    <input type="text" placeholder="Book title" className="input" />
-    <input type="text" placeholder="Author" className="input" />
-    <button type="submit" className="form-button">Add Book</button>
-  </form>
-);
+import { useDispatch } from 'react-redux';
+import { useState } from 'react';
+import { addBook } from '../redux/books/booksSlice';
 
+const NewBookForm = () => {
+  const dispatch = useDispatch();
+
+  const [title, setTitle] = useState('');
+  const [author, setAuthor] = useState('');
+
+  return (
+    <form
+      onSubmit={(event) => {
+        event.preventDefault();
+        dispatch(addBook({ title, author }));
+        setAuthor('');
+        setTitle('');
+      }}
+      className="form"
+    >
+
+      <input
+        placeholder="Book title"
+        className="input"
+        name="title"
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+      />
+
+      <input
+        placeholder="Author"
+        className="input"
+        name="author"
+        type="text"
+        value={author}
+        onChange={(e) => setAuthor(e.target.value)}
+      />
+      <button type="submit" className="form-button">Add Book</button>
+    </form>
+  );
+};
 export default NewBookForm;
