@@ -10,8 +10,7 @@ const NewBookForm = () => {
 
   return (
     <form
-      onSubmit={(event) => {
-        event.preventDefault();
+      onSubmit={() => {
         dispatch(addBook({ title, author }));
         setAuthor('');
         setTitle('');
