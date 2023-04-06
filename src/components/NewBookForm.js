@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addBook } from '../redux/books/booksSlice';
+import { addBook, postABook } from '../redux/books/booksSlice';
 
 const NewBookForm = () => {
   const dispatch = useDispatch();
@@ -13,6 +13,7 @@ const NewBookForm = () => {
       onSubmit={(event) => {
         event.preventDefault();
         dispatch(addBook({ title, author }));
+        dispatch(postABook({ title, author }));
         setAuthor('');
         setTitle('');
       }}
