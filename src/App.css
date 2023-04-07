@@ -2,8 +2,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   padding: 4%;
-  background-color: #e8e8e8
+  background-color: #e8e8e8;
 }
+
 #root {
   margin: 0;
   padding: 0 0 8%;
@@ -16,7 +17,6 @@ body {
   width: 100%;
 }
 
-
 h2 {
   color: black;
 }
@@ -27,7 +27,3 @@ h2 {
   padding-top: 4%;
   padding-bottom: 1%;
 }
-
-
-
-

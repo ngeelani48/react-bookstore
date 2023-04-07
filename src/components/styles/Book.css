@@ -1,97 +1,103 @@
 .book {
-    display: flex;
-    border: 1px solid #e8e8ee;
-    justify-content: space-between;
-    padding: 2.5rem;
-    margin: 2rem 0;
-    background-color: #fff;
-  }
-  
-  button {
-    width: fit-content;
-  }
-  
-  .title {
-    margin: 0;
+  display: flex;
+  border: 1px solid #e8e8ee;
+  justify-content: space-between;
+  padding: 2.5rem;
+  margin: 2rem 0;
+  background-color: #fff;
+}
+
+button {
+  width: fit-content;
+}
+
+.title {
+  margin: 0;
   font-weight: 700;
   font-size: 1.375rem;
   margin-top: 0.188rem;
   letter-spacing: -0.2px;
   font-family: 'Roboto Slab', serif;
-  }
-  
-  .author {
-    font-family: 'Roboto Slab', serif;
-    color: #4386bf;
-    margin: 0 0 1.5rem 0;
-  }
-  
-  .category {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #121212;
-    opacity: 0.5;
-    margin: 0;
-  }
-  
-  .btn-action {
-    border: none;
-    color: #4386bf;
-    background-color: #fff;
-    cursor: pointer;
-  }
-  
-  
-  .progress {
-    display: flex;
-    align-items: center;
-    gap: 7rem;
-  }
-  
-  .progressCircle {
-    width: 111px;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 12%;
-  }
- .progress-percentage {
-    margin-left: -15%;
-    font-family: "Montserrat",sans-serif;
-    color: #121212;
- }
- .percentage {
-    font-size: 1.5rem;
- }
-  .progress-text {
-    opacity: 0.5;
-    margin-top: -20%;
-  }
-  .currentChapter,
-  .chapter {
-    font-family: 'Roboto Slab', serif;
-    margin: 10px 0;
-  }
-  
-  .currentChapter {
-    opacity: 0.5;
-  }
-  
-  .separator {
-    margin: 0 1rem;
-    opacity: 0.5;
-  }
-  .separator2 {
-    border: 1px solid #121212;
-    opacity: 0.2;
-    height: 60%;
-  }
-  .update-progress{
-    background-color: rgb(8, 154, 238);
-    border: none;
-    color: white;
-    padding: 8% 6%;
-    text-transform: uppercase;
-    font-weight: lighter;
-    border-radius: 3px;
-    margin-top: 9%;
-    cursor: pointer;
-  }
+}
+
+.author {
+  font-family: 'Roboto Slab', serif;
+  color: #4386bf;
+  margin: 0 0 1.5rem 0;
+}
+
+.category {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #121212;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.btn-action {
+  border: none;
+  color: #4386bf;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.progressCircle {
+  width: 111px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12%;
+}
+
+.progress-percentage {
+  margin-left: -15%;
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+}
+
+.percentage {
+  font-size: 1.5rem;
+}
+
+.progress-text {
+  opacity: 0.5;
+  margin-top: -20%;
+}
+
+.currentChapter,
+.chapter {
+  font-family: 'Roboto Slab', serif;
+  margin: 10px 0;
+}
+
+.currentChapter {
+  opacity: 0.5;
+}
+
+.separator {
+  margin: 0 1rem;
+  opacity: 0.5;
+}
+
+.separator2 {
+  border: 1px solid #121212;
+  opacity: 0.2;
+  height: 60%;
+}
+
+.update-progress {
+  background-color: rgb(8, 154, 238);
+  border: none;
+  color: white;
+  padding: 8% 6%;
+  text-transform: uppercase;
+  font-weight: lighter;
+  border-radius: 3px;
+  margin-top: 9%;
+  cursor: pointer;
+}

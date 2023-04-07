@@ -35,7 +35,8 @@
   margin: 0 1rem 0 0;
   width: 100%;
 }
-.form-button{
+
+.form-button {
   width: 20%;
   border: none;
   padding: 15px;
@@ -45,6 +46,6 @@
   color: #fff;
   font-size: 1rem;
   letter-spacing: 0.5px;
-  background-color:rgb(8, 154, 238);
+  background-color: rgb(8, 154, 238);
   font-family: 'Roboto Slab', serif;
 }
