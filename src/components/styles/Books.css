@@ -17,11 +17,20 @@
   flex-direction: column;
   justify-content: center;
   margin: 1rem 0;
+  gap: 2%;
 }
 
 .inputs {
   display: flex;
   align-items: center;
+}
+
+.form-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  color: #888;
+  font-family: "Montserrat", sans-serif;
 }
 
 .input {
@@ -31,21 +40,21 @@
   font-weight: 400;
   font-size: 1rem;
   padding: 0.5rem;
-  height: 2rem;
+  height: 1.5rem;
   margin: 0 1rem 0 0;
-  width: 100%;
+  width: 80%;
 }
 
 .form-button {
-  width: 20%;
-  border: none;
-  padding: 15px;
   cursor: pointer;
-  font-weight: 700;
+  width: 20%;
+  padding: 12px;
   border-radius: 3px;
-  color: #fff;
-  font-size: 1rem;
+  background-color: #0290ff;
+  border: none;
   letter-spacing: 0.5px;
-  background-color: rgb(8, 154, 238);
-  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
 }

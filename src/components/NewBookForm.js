@@ -19,7 +19,7 @@ const NewBookForm = () => {
       }}
       className="form"
     >
-      <h2 className="title">ADD NEW BOOK</h2>
+      <h2 className="form-title">ADD NEW BOOK</h2>
       <div className="inputs">
         <input
           placeholder="Book title"
