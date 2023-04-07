@@ -40,8 +40,6 @@ button {
   background-color: #fff;
   cursor: pointer;
 }
-
-
 .progress {
   display: flex;
   align-items: center;
