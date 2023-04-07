@@ -54,11 +54,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-**Note:** Will work properly after final merge.
-- [https://react-bookstore-7gnl.onrender.com/] 
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,15 +113,6 @@ Run the dev server using:
 npm run start
 ```
 
-
-### Deployment
-
-You can deploy this project using:
-
-**Note:** Will work properly after final merge.
-
-(https://react-bookstore-7gnl.onrender.com/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -143,7 +130,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add more updates] **[new_feature_1]**
+- Deploy the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
