@@ -1,10 +1,10 @@
 .nav-bar {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  width: 90%;
-  height: 3.938rem;
-  margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  width: 92%;
+  height: 3.0rem;
+  margin: 0 0 3rem;
+  padding: 24px 4%;
   background-color: #fff;
 }
 .main-title{
@@ -45,6 +45,7 @@
 .active {
   opacity: 1;
   color: #121212;
+  border-bottom: 2px solid blue;
 }
 .user {
   width: 2.813rem;
