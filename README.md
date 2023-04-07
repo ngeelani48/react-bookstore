@@ -32,7 +32,7 @@
 
 # 📖 Bookstore <a name="Bookstore: Project setup with React"></a>
 
-**Bookstore**  is a website which allows you to display, add or remove a selected book.
+**Bookstore**  is a website which allows you to display, add or remove a selected book with iteraction of an external Bookstore API as your backend..
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -41,6 +41,7 @@
 - React.js
 - GitFlow
 - Redux
+- API
 
 
 ### Key Features <a name="key-features"></a>
@@ -57,7 +58,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Will be updated soon]
+- https://react-bookstore-7gnl.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +122,7 @@ npm run start
 
 You can deploy this project using:
 
-(Comming Soon)
+(https://react-bookstore-7gnl.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

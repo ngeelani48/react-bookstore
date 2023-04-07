@@ -1,18 +1,21 @@
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles/Navbar.css';
+import { BsPersonCircle } from 'react-icons/bs';
 
 const Navbar = () => (
-  <nav className="nav">
+  <nav className="nav-bar">
     <h1 className="main-title">Bookstore CMS</h1>
-    <ul>
+    <ul className="links">
       <li>
-        <Link to="/">Books</Link>
+        <NavLink exact to="/" activeClassName="active" style={{ textDecoration: 'none' }}>Books</NavLink>
       </li>
       <li>
-        <Link to="/categories">Categories</Link>
+        <NavLink to="/categories" activeClassName="active" style={{ textDecoration: 'none' }}>Categories</NavLink>
       </li>
     </ul>
-    <Outlet />
+    <div className="user">
+      <BsPersonCircle />
+    </div>
   </nav>
 );
 
