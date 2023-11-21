@@ -32,7 +32,7 @@
 
 # 📖 Bookstore <a name="Bookstore: Project setup with React"></a>
 
-**Bookstore**  is a website which allows you to display, add or remove a selected book with iteraction of an external Bookstore API as your backend..
+**Bookstore**  is a website that allows you to display, add or remove a selected book with interaction of an external Bookstore API as your backend.
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -94,8 +94,8 @@ Install this project with:
 
 To run the project, execute the following command:
 - After Cloning this repo to your local machine
-- Run this command in terminal: `npm run start` 
-- It will open with Live Server
+- Run this command in the terminal: `npm run start` 
+- It will open with a Live Server
 ### Run tests
 
 To track linter errors locally follow these steps:  
@@ -159,7 +159,7 @@ If you like this project please give your valuable comments.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partners for their help and support and Microvers for this oppertunity.
+I would like to thank my coding partners for their help and support and Microvers for this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
